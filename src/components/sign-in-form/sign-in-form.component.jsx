@@ -41,7 +41,6 @@ const SignInForm = () => {
         email,
         password
       );
-      console.log("user:" + JSON.stringify(user));
       setCurrentUser(user);
 
       resetFormFields();
